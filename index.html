@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <section>
+          <div class="calc_text">You can calculate something.</div>
+          <div class="container">
+              <div onclick="" class="item input"><form name="form"><input type="text" name="textview" readonly></form></div>
+              <div onclick="clean()" class="item clean">C</div>
+              <div onclick="back()" class="item back">&Larr;</div>
+              <div onclick="insert('+')" class="item">+</div>
+              <div onclick="insert('-')" class="item">-</div>
+              <div onclick="insert('*')" class="item">&times;</div>
+              <div onclick="insert('/')" class="item">&divide;</div>
+              <div onclick="insert('7')" class="item">7</div>
+              <div onclick="insert('8')" class="item">8</div>
+              <div onclick="insert('9')" class="item">9</div>
+              <div onclick="insert('(')" class="item">(</div>
+              <div onclick="insert('4')" class="item">4</div>
+              <div onclick="insert('5')" class="item">5</div>
+              <div onclick="insert('6')" class="item">6</div>
+              <div onclick="insert(')')" class="item">)</div>
+              <div onclick="insert('1')" class="item">1</div>
+              <div onclick="insert('2')" class="item">2</div>
+              <div onclick="insert('3')" class="item">3</div>
+              <div onclick="equal()" class="item equal">=</div>
+              <div onclick="insert('0')" class="item zero">0</div>
+              <div onclick="insert('.')" class="item">.</div>
+          </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
